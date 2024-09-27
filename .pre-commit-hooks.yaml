@@ -1,0 +1,7 @@
+-   id: good-commit-messages
+    name: Check prefixes of commit messages
+    description: Checks for feat|fix|style|refactor|test|docs|chore in start of commit message
+    entry: good-commit-messages
+    language: python
+    types: [python]
+    stages: [commit-msg]

@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: commit-message-check
+        name: Commit Message Check
+        entry: python good_commit_messages/good_commit_messages.py
+        language: python
+        stages: [commit-msg]
